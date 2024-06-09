@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.SignupPage {
+  width: 750px;
+  height: 750px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #000;
+  background: #000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.SignupPage .picSide {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+.SignupPage .picSide h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.SignupPage .picSide p {
+  color: #fff;
+  margin-top: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 17px;
+}
+.SignupPage .picSide {
+  background: url(./images/bg\ pic.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.SignupPage .formSide {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+.formSide .greetArea {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 20%;
+}
+.formSide .greetArea h2 {
+  font-size: 45px;
+  font-weight: 400;
+}
+.formSide .greetArea p {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.formSide .formArea {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 70%;
+}
+.formSide .formArea form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 15px;
+}
+.formArea form .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.formArea form .inputBox label {
+  margin: 7px 0;
+}
+.formArea form .inputBox .input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5555;
+  height: 50px;
+  width: 100%;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+.formArea form .inputBox .input input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-left: 6px;
+  font-size: 16px;
+}
+.inputBox .input i {
+  font-size: 14px;
+  color: #555;
+  padding-left: 7px;
+}
+form .genderBox {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+form .genderBox input {
+  margin: 0 6px;
+  cursor: pointer;
+}
+form .genderBox label {
+  cursor: pointer;
+}
+form .signupBtn {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.signupBtn .login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.signupBtn button {
+  width: 70%;
+  height: 40px;
+  background-color: #603eff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  transition: 0.4s ease-in-out;
+}
+.signupBtn button:hover {
+  background: #4b24f7;
+}
+.signupBtn .login p {
+  margin: 20px 0;
+}
+.signupBtn .login button {
+  background-color: transparent;
+  border: 1px solid #bbb;
+}
+.signupBtn .login button:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* ########################### login page ############################# */
+
+.loginPage {
+  width: 750px;
+  height: 650px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #000;
+  background: #000;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.loginPage .picSide {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+.loginPage .picSide h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.loginPage .picSide p {
+  color: #fff;
+  margin-top: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 17px;
+}
+.loginPage .picSide {
+  background: url(./images/login-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loginPage .formSide {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+.formSide .greetArea h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+form .loginBtn {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.loginBtn .signup {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+}
+.loginBtn button {
+  width: 70%;
+  height: 40px;
+  background-color: #603eff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  transition: 0.4s ease-in-out;
+}
+.loginBtn button:hover {
+  background: #4b24f7;
+}
+.loginBtn .signup p {
+  margin: 10px 0;
+}
+.loginBtn .signup button {
+  background-color: transparent;
+  border: 1px solid #bbb;
+}
+.loginBtn .signup button:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* ################ media query ################### */
+
+@media (max-width: 756px) {
+  body {
+    padding: 10px;
+  }
+  .SignupPage {
+    flex-direction: column;
+    width: 100%;
+    height: 750px;
+    flex-direction: row;
+  }
+  .SignupPage .picSide {
+    display: none;
+  }
+  .formSide .greetArea {
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .formSide .greetArea h2 {
+    font-size: 25px;
+  }
+  .SignupPage .formSide {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .loginPage {
+    flex-direction: column;
+    width: 100%;
+    height: 750px;
+    flex-direction: row;
+  }
+  .loginPage .picSide {
+    display: none;
+  }
+  .formSide .greetArea {
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .formSide .greetArea h2 {
+    font-size: 20px;
+  }
+  .loginPage .formSide {
+    margin: 10px 0;
+    width: 100%;
+  }
+}

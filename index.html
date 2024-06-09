@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universe || ChatBook</title>
+    <link rel="icon" href="./images/logo.jpg" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="SignupPage">
+      <div class="picSide">
+        <h1>Universe <br />Chat Book</h1>
+        <p>Let's Start to find Friends, all over the world</p>
+      </div>
+      <div class="formSide">
+        <div class="greetArea">
+          <h2>Create Account</h2>
+          <p>Welcome to Universe Chat Book</p>
+        </div>
+        <div class="formArea">
+          <form>
+            <div class="inputBox">
+              <label for="setFullName">Full Name</label>
+              <div class="input">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="setFullName" placeholder="FullName" />
+              </div>
+            </div>
+            <div class="inputBox">
+              <label for="setUserName">User Name</label>
+              <div class="input">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="setUserName" placeholder="User Name" />
+              </div>
+            </div>
+            <div class="inputBox">
+              <label for="setUserEmail">Email</label>
+              <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="setUserEmail" placeholder="Email" />
+              </div>
+            </div>
+            <div class="inputBox">
+              <label for="setUserPassword">Password</label>
+              <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input
+                  type="password"
+                  id="setUserPassword"
+                  placeholder="Password"
+                />
+              </div>
+            </div>
+            <div class="inputBox">
+              <label for="setUserConfirmPassword">Password</label>
+              <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input
+                  type="password"
+                  id="setUserConfirmPassword"
+                  placeholder="Confirm Password"
+                />
+              </div>
+            </div>
+            <div class="signupBtn">
+              <button type="submit" id="setUserSignupBtn">Signup</button>
+              <div class="login">
+                <p>Have an account ?</p>
+                <button type="submit" id="setUserLoginBtn">Login</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- ##################### Login Page ##################### -->
+    <section class="loginPage">
+      <div class="picSide">
+        <h1>Universe <br />Chat Book</h1>
+        <p>Let's Start to find Friends, all over the world</p>
+      </div>
+      <div class="formSide">
+        <div class="greetArea">
+          <h2>Welcome to Universe Chat Book</h2>
+        </div>
+        <div class="formArea">
+          <form>
+            <div class="inputBox">
+              <label for="getLoginUserName">Email or User Name</label>
+              <div class="input">
+                <i class="fa-solid fa-user"></i>
+                <input
+                  type="text"
+                  id="getLoginUserName"
+                  placeholder="email or user name"
+                />
+              </div>
+            </div>
+            <div class="inputBox">
+              <label for="getLoginUserPassword">Password</label>
+              <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input
+                  type="password"
+                  id="getLoginUserPassword"
+                  placeholder="Password"
+                />
+              </div>
+            </div>
+            <div class="loginBtn">
+              <button type="submit" id="getLoginBtn">Login</button>
+              <div class="signup">
+                <p>Don't have an account ?</p>
+                <button id="getSignupBtn">Signup</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ##################### javascript File ##################### -->
+    <script src="./script.js"></script>
+
+    <!-- ##################### alert js ##################### -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+  </body>
+</html>
