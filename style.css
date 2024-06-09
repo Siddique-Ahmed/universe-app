@@ -16,6 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding: 20px;
 }
 .SignupPage {
   width: 750px;
@@ -294,6 +295,9 @@ form .loginBtn {
 /* ################ media query ################### */
 
 @media (max-width: 756px) {
+  body{
+    padding: 0;
+  }
   .SignupPage {
     flex-direction: column;
     width: 100%;
